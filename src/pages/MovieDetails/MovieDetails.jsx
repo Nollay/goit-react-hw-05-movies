@@ -52,6 +52,12 @@ const MovieDetails = () => {
       </Flex>
       <LinkList>
         <li>
+          <LinkNav to="cast" state={{ from: backLink }}>
+            <span>Cast</span>
+          </LinkNav>
+        </li>
+        <li></li>
+        <li>
           <LinkNav to="reviews" state={{ from: backLink }}>
             <span>Review</span>
           </LinkNav>

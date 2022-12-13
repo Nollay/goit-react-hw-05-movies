@@ -52,7 +52,7 @@ const Movie = () => {
           {movie.map(({ id, title, release_date }) => {
             return (
               <li key={id}>
-                <NavLink to={`/movie/${id}`} state={{ from: location }}>
+                <NavLink to={`/movies/${id}`} state={{ from: location }}>
                   <h2>
                     {title} ({release_date.slice(0, 4)})
                   </h2>

@@ -45,7 +45,7 @@ export const LinkNav = styled(Link)`
     margin-left: 5px;
   }
   :hover {
-    color: #3498db;
-    border: 1px solid #3498db;
+    color: tomato;
+    border: 1px solid tomato;
   }
 `;

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const Header = styled.header`
   padding: 15px;
 `;
-export const MovieList = styled.ul`
+export const MovList = styled.ul`
   display: flex;
   list-style: none;
   gap: 15px;

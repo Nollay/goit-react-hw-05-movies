@@ -1,10 +1,10 @@
-import { MovieList, NavItem, Header, Span } from './AppBar.styled';
+import { MovList, NavItem, Header, Span } from './Header.styled';
 
 export const AppBar = () => {
   return (
     <Header>
       <nav>
-        <MovieList>
+        <MovList>
           <li>
             <NavItem to={'/'}>
               <Span>Home</Span>
@@ -15,7 +15,7 @@ export const AppBar = () => {
               <Span>Movies</Span>
             </NavItem>
           </li>
-        </MovieList>
+        </MovList>
       </nav>
     </Header>
   );
