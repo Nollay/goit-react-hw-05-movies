@@ -9,11 +9,7 @@ import {
   LinkList,
   LinkNav,
 } from './MovieDetails.styled';
-import {
-  BsFillArrowLeftCircleFill,
-  BsChatRightText,
-  BsPersonLinesFill,
-} from 'react-icons/bs';
+
 const MovieDetails = () => {
   const location = useLocation();
   const [movies, setMovies] = useState({});
