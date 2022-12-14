@@ -28,7 +28,6 @@ const MovieDetails = () => {
   return (
     <>
       <GoBack to={backLink}>
-        <BsFillArrowLeftCircleFill />
         <span>Go back</span>
       </GoBack>
       <Flex>
@@ -57,13 +56,11 @@ const MovieDetails = () => {
       <LinkList>
         <li>
           <LinkNav to="cast" state={{ from: backLink }}>
-            <BsPersonLinesFill />
             <span>Cast</span>
           </LinkNav>
         </li>
         <li>
           <LinkNav to="reviews" state={{ from: backLink }}>
-            <BsChatRightText />
             <span>Review</span>
           </LinkNav>
         </li>
