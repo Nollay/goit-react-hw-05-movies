@@ -5,11 +5,11 @@ export const Flex = styled.div`
   display: flex;
 `;
 
-export const Img = styled.img`
+export const IMG = styled.img`
   display: block;
   margin-right: 25px;
 `;
-export const Back = styled(Link)`
+export const GoBack = styled(Link)`
   display: flex;
   align-items: center;
   padding: 12px;
