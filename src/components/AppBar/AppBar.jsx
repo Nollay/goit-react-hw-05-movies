@@ -1,4 +1,4 @@
-import { MovList, NavItem, Header, Span } from './Header.styled';
+import { MovList, NavItem, Header, Span } from './AppBar.styled';
 
 export const AppBar = () => {
   return (
