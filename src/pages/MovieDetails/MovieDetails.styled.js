@@ -5,7 +5,7 @@ export const Flex = styled.div`
   display: flex;
 `;
 
-export const Img = styled.img`
+export const IMG = styled.img`
   display: block;
   margin-right: 25px;
 `;

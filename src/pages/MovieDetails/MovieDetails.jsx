@@ -7,7 +7,7 @@ import {
   LinkList,
   LinkNav,
   Flex,
-  Img,
+  IMG,
 } from './MovieDetails.styled';
 
 const MovieDetails = () => {
